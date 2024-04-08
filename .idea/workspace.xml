@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96510296-38a4-4e6e-98dc-7a839f639e92" name="Changes" comment="created scene basics">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guiapptest/guiflowtest/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guiapptest/guiflowtest/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guiapptest/guiflowtest/Scene1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guiapptest/guiflowtest/Scene1Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/guiapptest/guiflowtest/scene1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/guiapptest/guiflowtest/scene1.fxml" afterDir="false" />
+    <list default="true" id="96510296-38a4-4e6e-98dc-7a839f639e92" name="Changes" comment="added code to complete the original app">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/guiapptest/guiflowtest/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/guiapptest/guiflowtest/Style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712587341950</updated>
-      <workItem from="1712587343279" duration="3408000" />
+      <workItem from="1712587343279" duration="3593000" />
     </task>
     <task id="LOCAL-00001" summary="created scene basics">
       <option name="closed" value="true" />
@@ -88,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712589329014</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added code to complete the original app">
+      <option name="closed" value="true" />
+      <created>1712592455403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712592455403</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created scene basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="created scene basics" />
+    <MESSAGE value="added code to complete the original app" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code to complete the original app" />
   </component>
 </project>
