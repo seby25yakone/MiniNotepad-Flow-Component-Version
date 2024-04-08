@@ -6,21 +6,23 @@
 
 <VBox prefHeight="530.0" prefWidth="624.0" spacing="20.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guiapptest.guiflowtest.Scene1Controller">
    <children>
-      <MenuBar maxHeight="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="26.0" prefWidth="746.0" VBox.vgrow="ALWAYS">
+      <MenuBar fx:id="menuBar" maxHeight="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="26.0" prefWidth="746.0" VBox.vgrow="ALWAYS">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
-              <MenuItem mnemonicParsing="false" text="Close" />
+              <MenuItem mnemonicParsing="false" onAction="#openFile" text="Open" />
+                  <MenuItem mnemonicParsing="false" onAction="#fileWrite" text="Save" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Edit">
             <items>
-              <MenuItem mnemonicParsing="false" text="Delete" />
+              <MenuItem mnemonicParsing="false" onAction="#setFont" text="Font..." />
+                  <CheckMenuItem mnemonicParsing="false" onAction="#changeWordWrap" text="Word wrap" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Help">
             <items>
-              <MenuItem mnemonicParsing="false" text="About" />
+              <MenuItem mnemonicParsing="false" onAction="#openAbout" text="About" />
             </items>
           </Menu>
         </menus>
@@ -28,19 +30,19 @@
             <Insets />
          </VBox.margin>
       </MenuBar>
-      <ColorPicker maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="132.0">
+      <ColorPicker fx:id="colorPicker" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#setTextColor" prefHeight="27.0" prefWidth="132.0">
          <VBox.margin>
             <Insets bottom="-20.0" top="-20.0" />
          </VBox.margin></ColorPicker>
-      <TextArea maxHeight="1.7976931348623157E308" prefHeight="602.0" prefWidth="624.0" VBox.vgrow="ALWAYS" />
+      <TextArea fx:id="textArea" maxHeight="1.7976931348623157E308" onKeyPressed="#getLineAndWordCount" onKeyReleased="#getLineAndWordCount" onKeyTyped="#getLineAndWordCount" onMouseClicked="#getLineAndWordCount" prefHeight="602.0" prefWidth="624.0" VBox.vgrow="ALWAYS" />
       <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" prefWidth="624.0" VBox.vgrow="ALWAYS">
          <children>
-            <Label text="Character: 0">
+            <Label fx:id="charLabel" text="Character: 0">
                <HBox.margin>
                   <Insets left="20.0" right="20.0" />
                </HBox.margin>
             </Label>
-            <Label text="Word count: 0">
+            <Label fx:id="wordCount" text="Word count: 0">
                <HBox.margin>
                   <Insets left="20.0" />
                </HBox.margin>
