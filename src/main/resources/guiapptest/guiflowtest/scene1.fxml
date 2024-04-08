@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="530.0" prefWidth="624.0" spacing="20.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guiapptest.guiflowtest.Scene1Controller">
+   <children>
+      <MenuBar maxHeight="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="26.0" prefWidth="746.0" VBox.vgrow="ALWAYS">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </MenuBar>
+      <ColorPicker maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="132.0">
+         <VBox.margin>
+            <Insets bottom="-20.0" top="-20.0" />
+         </VBox.margin></ColorPicker>
+      <TextArea maxHeight="1.7976931348623157E308" prefHeight="602.0" prefWidth="624.0" VBox.vgrow="ALWAYS" />
+      <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" prefWidth="624.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Label text="Character: 0">
+               <HBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </HBox.margin>
+            </Label>
+            <Label text="Word count: 0">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin></HBox>
+   </children>
+</VBox>

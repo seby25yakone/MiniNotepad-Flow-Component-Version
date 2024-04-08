@@ -1,0 +1,45 @@
+.root {
+    -fx-background-color: #181b24;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.text-area .content{
+    -fx-background-color: #393c45;
+}
+
+.text-area {
+    -fx-text-fill: white;
+    -fx-font-size: 25px;
+}
+
+.menu-bar {
+    -fx-background-color: #393c45;
+}
+
+.menu .label{
+    -fx-text-fill: white;
+}
+
+.menu:hover{
+    -fx-background-color: #8568e3;
+}
+
+.menu:showing{
+    -fx-background-color: #8568e3;
+}
+
+.menu-item{
+    -fx-background-color: #393c45;
+}
+
+.menu-item:focused{
+    -fx-background-color: red;
+}
+
+.color-picker {
+    -fx-background-color: #1a2029;
+    -fx-border-color: #1f1a29;
+}
