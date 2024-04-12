@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96510296-38a4-4e6e-98dc-7a839f639e92" name="Changes" comment="added code to complete the original app">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/guiapptest/guiflowtest/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/guiapptest/guiflowtest/Style.css" afterDir="false" />
+    <list default="true" id="96510296-38a4-4e6e-98dc-7a839f639e92" name="Changes" comment="fixed a glitch that changed font size along with color by removing default font size from the css stylesheet">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +29,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ep2kBoZEI2Cybuamr3oAAORW8I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,6 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/java/GUI Flow Test",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -75,7 +76,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712587341950</updated>
-      <workItem from="1712587343279" duration="3593000" />
+      <workItem from="1712587343279" duration="4253000" />
+      <workItem from="1712688430882" duration="345000" />
+      <workItem from="1712755631961" duration="78000" />
+      <workItem from="1712848238539" duration="9000" />
+      <workItem from="1712857977580" duration="39000" />
+      <workItem from="1712907968707" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="created scene basics">
       <option name="closed" value="true" />
@@ -93,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712592455403</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed a glitch that changed font size along with color by removing default font size from the css stylesheet">
+      <option name="closed" value="true" />
+      <created>1712592712471</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712592712471</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created scene basics" />
     <MESSAGE value="added code to complete the original app" />
-    <option name="LAST_COMMIT_MESSAGE" value="added code to complete the original app" />
+    <MESSAGE value="fixed a glitch that changed font size along with color by removing default font size from the css stylesheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a glitch that changed font size along with color by removing default font size from the css stylesheet" />
   </component>
 </project>

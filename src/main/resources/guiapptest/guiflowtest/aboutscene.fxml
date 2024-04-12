@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="327.0" prefWidth="365.0" style="-fx-background-color: #393c45;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="86.0" prefWidth="269.0" text="MiniNotepad is a small application I developed in a few days to get familiar with using JavaFX to build GUI. It doesn't have all the functions of Windows' Notepad, but it is still decent and I'd say it was a good learning experience." textFill="WHITE" wrapText="true" />
+   </children>
+</VBox>
